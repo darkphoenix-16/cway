@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar */
+
+/* logo */
+.logo {
+    padding: 20px;
+    margin-left: 70px;
+}
+
+/* navigation links */
+.nav-links {
+    display: flex;
+    /* search icon not found*/
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+}
+
+.nav-links ul {
+    padding: 10px;
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+.nav-links li a:link {
+    color: black;
+}
+
+.nav-links li a:hover {
+    color: #118acb;
+}
+
+/* section image */
+.section-image img {
+    width: 100%;
+}
+
+/* cway water */
+.water {
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.water div img {
+    margin-left: 30%;
+}
+
+.water-text {
+    margin-left: 20%;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.water-text button{
+    margin-top: 10px;
+    background-color: #104097;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+/* cway food */
+.food {
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+}
+
+.food .img img{
+    margin-right: 50px;
+    /* border: solid */
+}
+
+.food-text {
+    margin-left: 10%;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.food-text button{
+    background-color: #fbb357;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+/* cway map */
+.map {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.map div img {
+    margin-left: 10%;
+    /* border: solid; */
+}
+
+.map-text h1{
+    /* margin-left: 20%; */
+    font-weight: bolder;
+    font-size: 3.3rem;
+}
+.map-text p{
+    font-size: 20px;
+}
+
+.map-text button{
+    margin-top: 10px;
+    background-color: #fbb357;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+/* youtube */
+.youtube{
+    padding: 20px;
+}
+.youtube1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.youtube2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/* carousel */
