@@ -13,14 +13,14 @@
 
 /* navigation links */
 .nav-links {
-    display: flex;
+    /* display: flex; */
     /* search icon not found*/
 }
 
 .nav {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 0px;
     position: sticky;
     background-color: #fff;
     top: 0;
@@ -74,7 +74,7 @@
 
 }
 
-.water-text button{
+.water-text button {
     margin-top: 10px;
     background-color: #104097;
     font-family: sans-serif;
@@ -84,6 +84,7 @@
     border: none;
     border-radius: 20px;
 }
+
 /* cway food */
 .food {
     margin-bottom: 20px;
@@ -93,7 +94,7 @@
     /* justify-content: center; */
 }
 
-.food .img img{
+.food .img img {
     margin-right: 50px;
     /* border: solid */
 }
@@ -105,7 +106,7 @@
 
 }
 
-.food-text button{
+.food-text button {
     background-color: #fbb357;
     margin-top: 10px;
     font-family: sans-serif;
@@ -115,6 +116,7 @@
     border: none;
     border-radius: 20px;
 }
+
 /* cway map */
 .map {
     padding: 30px;
@@ -128,16 +130,17 @@
     /* border: solid; */
 }
 
-.map-text h1{
+.map-text h1 {
     /* margin-left: 20%; */
     font-weight: bolder;
     font-size: 3.3rem;
 }
-.map-text p{
+
+.map-text p {
     font-size: 20px;
 }
 
-.map-text button{
+.map-text button {
     margin-top: 10px;
     background-color: #fbb357;
     font-family: sans-serif;
@@ -147,59 +150,223 @@
     border: none;
     border-radius: 20px;
 }
+
 /* youtube */
-.youtube{
+.youtube {
     padding: 20px;
 }
-.youtube1{
+
+.youtube1 {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
 }
-.youtube2{
+
+.youtube2 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
+
 /* carousel */
-.carousel{
+.carousel {
     padding: 30px;
 }
 
 /* footer */
-.footer{
-    background-color: #4f4e4e;
+.footer {
+    background-color: #353534;
     /* position: fixed; */
 }
-.footer-bottom{
+
+.footer-bottom {
     background-color: #1e1e1e;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     padding: 10px;
     font-size: 17px;
     color: #fff;
     text-align: center;
 }
-.footer-top{
+
+.footer-top {
     padding: 30px;
     display: flex;
     gap: 20px;
     justify-content: space-between;
 }
 
-.footer-top h2{
+.footer-top h2 {
     color: #fff;
     padding: 10px;
     font-size: 25px;
 }
-.footer-top p{
+
+.footer-top p {
     padding: 10px;
     font-size: 17px;
-    color: grey;
+    color:#848484;
 }
-.footer-top p:hover{
+
+.footer-top p:hover {
     color: #118acb;
 }
-.footer-top .text:hover{
+
+.footer-top .text:hover {
     color: grey;
+}
+
+@media (max-width: 1200px) {
+    .nav {
+        width: 80%;
+        gap: 0px;
+    }
+    .logo{
+        padding: 5px;
+        margin-left: 1px;
+    }
+    .section-image img{
+        width: 80%;
+    }
+    .water{
+        width: 70%;
+    }
+    .water div img{
+        margin-left: 0px;
+    }
+    .food{
+        width: 75%;
+    }
+    .food .img img{
+        margin-right: 0px;
+    }
+    .map{
+        width: 67%;
+    }
+    .youtube{
+        width: 76%;
+    }
+    .carousel{
+        width: 82%;
+    }
+    .footer{
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav {
+        display: block;
+        width: 100%;
+        gap: 0px;
+    }
+    .nav-links ul{
+        gap: 29px;
+        margin-left: 10px;
+    }
+    .logo{
+        padding: 5px;
+        margin-left: 1px;
+    }
+    .section-image img{
+        width: 101%;
+    }
+    .water{
+        width: 40%;
+        display: block;
+    }
+    .food{
+        width: 60%;
+        display: block;
+    }
+    
+    .map{
+        width: 230px;
+        display: block;
+    }
+    .youtube{
+        width: 70%;
+    }
+    .carousel{
+        width: 80%;
+    }
+    .footer{
+        width: 101%;
+    }
+}
+
+@media (max-width: 605px) {
+    .nav{
+        width: 126%;
+    }
+    .section-image img{
+        width: 125.5%;
+    }
+    .water{
+        width: 60%;
+        display: block;
+    }
+    .food{
+        width: 62%;
+        display: block;
+    }
+    
+    .map{
+        width: 220px;
+        display: block;
+    }
+    .youtube{
+        width: 100%;
+    }
+    .carousel{
+        width: 87%;
+    }
+    .footer{
+        width: 126%;
+    }
+}
+
+@media (max-width: 415px) {
+    .nav {
+        display: block;
+        width: 300px;
+        gap: 0px;
+    }
+    .nav-links ul{
+        gap: 29px;
+        margin-left: 10px;
+    }
+    .logo{
+        padding: 5px;
+        margin-left: 1px;
+    }
+    .section-image img{
+        width: 75%;
+    }
+    .water{
+        width: 190px;
+        display: block;
+    }
+    .food{
+        width: 190px;
+        display: block;
+    }
+    
+    .map{
+        width: 80px;
+        display: block;
+    }
+    .youtube{
+        width: 170px;
+    }
+    .carousel{
+        width: 126x;
+    }
+    .footer{
+        width: 305px;
+    }
+    .footer-top{
+        display: block;
+    }
 }
